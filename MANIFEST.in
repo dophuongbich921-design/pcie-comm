@@ -1,0 +1,10 @@
+include LICENSE NOTICE UPSTREAM.json README.md VALIDATION.md
+recursive-include third_party/DeepJIT/include *.hpp
+include third_party/DeepJIT/README.md
+recursive-include csrc *.cpp *.hpp
+recursive-include pcie_comm/csrc *.cu *.h
+recursive-include pcie_comm/include *.cuh
+recursive-include tools *.py
+recursive-include tests *.py
+recursive-include examples *.py
+recursive-include scripts *.sh

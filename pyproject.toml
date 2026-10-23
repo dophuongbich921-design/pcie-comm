@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=75", "wheel", "pybind11>=2.13"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcie-comm"
+version = "0.1.0"
+description = "FlashInfer PCIe collectives and autotuning with DeepJIT artifact persistence"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.5", "apache-tvm-ffi>=0.1.15,<0.2", "numpy", "tqdm", "ninja", "packaging", "nvidia-ml-py>=12"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["pcie_comm*"]
+
+[tool.setuptools.package-data]
+pcie_comm = ["csrc/*", "include/flashinfer/comm/*", "include/flashinfer/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gpu: requires Linux NVIDIA GPUs and a distributed launcher"]

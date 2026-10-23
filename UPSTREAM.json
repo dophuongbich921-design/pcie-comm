@@ -1,0 +1,269 @@
+{
+  "flashinfer": {
+    "repository": "https://github.com/flashinfer-ai/flashinfer",
+    "commit": "595bc5746cd57efc0006ff888b4bf8144f8235b9",
+    "files": {
+      "pcie_comm/autotuner/__init__.py": {
+        "source": "flashinfer/autotuner/__init__.py",
+        "source_sha256": "79d067053b016e29a10d196edc186b027084685bc6d952e2466b878cb03ce5f6",
+        "vendored_sha256": "af1d0cb2f22b011e7238c4c8bc9a7f95869ff0deda71a42ec447487852394617",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/autotuner/initializers.py": {
+        "source": "flashinfer/autotuner/initializers.py",
+        "source_sha256": "4c10d847cf9d4e6404ae3f88c6ddc3acf9fd993d18ff140d3f48e6e78b6c80d2",
+        "vendored_sha256": "986de866300eef01b8176ecc1783a2219bc75f86f3ed184e55e24f56030db93c",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/autotuner/autotuner.py": {
+        "source": "flashinfer/autotuner/autotuner.py",
+        "source_sha256": "af7eff96a4f5492bbef6c315f150648583c6721001134ef9f43dd93ce16ba699",
+        "vendored_sha256": "d3490dd033f465f20bc45141b6e18daf61268d2abdd225ac379f4da08be44dfd",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_policy.py": {
+        "source": "flashinfer/comm/pcie_ipc_policy.py",
+        "source_sha256": "763c455733ef58691f0f5d0d099944e602300a0a57560a9844e596d3ca928d97",
+        "vendored_sha256": "27389d449f86db4501e6170f8b15cace53b62d8fd9709c1b7df9ddd28d2a9b1a",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_topology.py": {
+        "source": "flashinfer/comm/pcie_ipc_topology.py",
+        "source_sha256": "c1bff29dd3b260317f73c491a80299c317cf5fbe86611d534d4489dae7bb824d",
+        "vendored_sha256": "c1bff29dd3b260317f73c491a80299c317cf5fbe86611d534d4489dae7bb824d",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_tuning.py": {
+        "source": "flashinfer/comm/pcie_ipc_tuning.py",
+        "source_sha256": "6206a7aff9b35efd84293a222b79db4e993caea11879a66b78a027acfd9dfcf3",
+        "vendored_sha256": "5801dd54edfbdef9b6d123a05b0ab19b2bba5f060f19c94a382d00d3982b3087",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_ar.py": {
+        "source": "flashinfer/comm/pcie_ipc_ar.py",
+        "source_sha256": "55d3733751cd026b54564573511d48d9e6c44d5edede03079ccb1b8c1a0ef140",
+        "vendored_sha256": "a9739116856f76ba202e4ad8a4e418656f6ab11336b9147b94278691696ed9ee",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/_constants.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/_constants.py",
+        "source_sha256": "6a0d08bf5c1f6edfbf166b61171c3b39bb28b6bb602dd2bc1a8235839017448d",
+        "vendored_sha256": "6a0d08bf5c1f6edfbf166b61171c3b39bb28b6bb602dd2bc1a8235839017448d",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/reduce_scatter_policy.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/reduce_scatter_policy.py",
+        "source_sha256": "89a60785f95823197638235078547f1fabe2c974b54f6b32c2ead0cf1bb5823e",
+        "vendored_sha256": "a59f3ed2e9d1b9c5c5f943ba3cabebccb0e42f3933da4859b85ce6d778472d47",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/all_gather.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/all_gather.py",
+        "source_sha256": "195043580d1af5d4f08a3fa3f7ee31c74e14b93991119831e116c1738c8722f2",
+        "vendored_sha256": "9e72b7c9a512ab5fb4a801e713fbf6c7aee3873a9922bcb631c9132fde9868c3",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/__init__.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/__init__.py",
+        "source_sha256": "d418505438b9a9766f379de69ff4dcdc273a91c8af09eb6b1be1002b04ed0d41",
+        "vendored_sha256": "2910b6847ac3fc5e36483a70ea760be95d3f1f004b38ed80708eebbce4477f77",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/_ag_rs_module.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/_ag_rs_module.py",
+        "source_sha256": "64e57c57b225166660f33a82a5764bb4dece96bd810c85a16438b242e2f3c3d1",
+        "vendored_sha256": "f0f962274182d83f95151eb90d474d0c4465dc0aefe8c4b9144109be0d18652b",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/_topology.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/_topology.py",
+        "source_sha256": "1e241b0ec136160ce98c92bbf6843d11244d680aee005a511ae8b23b3ca3ede2",
+        "vendored_sha256": "1e241b0ec136160ce98c92bbf6843d11244d680aee005a511ae8b23b3ca3ede2",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/_ag_rs_topology.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/_ag_rs_topology.py",
+        "source_sha256": "e04f7268c44b3610f9b1b7d85cd8ac183c604d6c306cf2067b239cca52aa5f14",
+        "vendored_sha256": "e04f7268c44b3610f9b1b7d85cd8ac183c604d6c306cf2067b239cca52aa5f14",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/reduce_scatter.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/reduce_scatter.py",
+        "source_sha256": "589efa26db31c1b7ce3320d1f59bdb834126cd16b71a0e520303c79bed9144d3",
+        "vendored_sha256": "7dc1b529b0f75a737c27a5d193e88672aab30e527bb8959ea564ff75f8a0019d",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/all_gather_policy.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/all_gather_policy.py",
+        "source_sha256": "9e9cdf9d9460a4c1fac30e9f5f4e6428f58e5612c2ea725d7943259f56acf393",
+        "vendored_sha256": "07f5ffaa54e9fe1c93d7db8f0f1408d0d35595489d195e6fe2ccc9d3ac53411d",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/_ag_rs_workspace.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/_ag_rs_workspace.py",
+        "source_sha256": "59d1d4bcc5eb7c6ade8a6cf5b2dc2a6552a9a26d911ebe469912839288e6a60d",
+        "vendored_sha256": "59d1d4bcc5eb7c6ade8a6cf5b2dc2a6552a9a26d911ebe469912839288e6a60d",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/_lifecycle.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/_lifecycle.py",
+        "source_sha256": "ca0ac895d4ac73075a08c7aebd980207b623784a53a6045f1f39237390df249d",
+        "vendored_sha256": "ca0ac895d4ac73075a08c7aebd980207b623784a53a6045f1f39237390df249d",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/pcie_ipc_collectives/_ag_rs_tuning.py": {
+        "source": "flashinfer/comm/pcie_ipc_collectives/_ag_rs_tuning.py",
+        "source_sha256": "c2f705b0638dda6fbe44c5246847830c86c041aed1e5002dcb6f429a53a35157",
+        "vendored_sha256": "41c4d2b725aad3a46eb1ee4f5e9535a99050fb3bb7ba6c9a45bab822b0a8a897",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/autotune_cache.py": {
+        "source": "flashinfer/autotune_cache.py",
+        "source_sha256": "37615f796e489ea7126c14cf116cb7b314be34112f060873040205b2c51607a7",
+        "vendored_sha256": "c58477bbd4072ed093095228ab00abcad47216a98dc26116f9fb7585391740f1",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/tactics_blocklist.py": {
+        "source": "flashinfer/tactics_blocklist.py",
+        "source_sha256": "6f652b3d93a8311fa09392e4ccf24af0cbdd5bab57f1fdba8fb4fc1d6eb7e3b0",
+        "vendored_sha256": "8e15c280f6b4a732de535457387a77ac49a97dd67c2e4568951afdaf55fc9a62",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/comm/cuda_ipc.py": {
+        "source": "flashinfer/comm/cuda_ipc.py",
+        "source_sha256": "e74e838f9da6217fdcf3d1722c05dd6bda6bdcdc5e37699b5c6a2615c6af9884",
+        "vendored_sha256": "e74e838f9da6217fdcf3d1722c05dd6bda6bdcdc5e37699b5c6a2615c6af9884",
+        "adaptation": "namespace; remove optional API tracing decorators"
+      },
+      "pcie_comm/include/flashinfer/comm/pcie_ipc_ce_memop.cuh": {
+        "source": "include/flashinfer/comm/pcie_ipc_ce_memop.cuh",
+        "source_sha256": "4aeddf8ca8dbeb3c4f7a9bc17553c089593c4254b8045c56f08a750503904739",
+        "vendored_sha256": "4aeddf8ca8dbeb3c4f7a9bc17553c089593c4254b8045c56f08a750503904739",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/include/flashinfer/comm/pcie_ipc_ce_sm120.cuh": {
+        "source": "include/flashinfer/comm/pcie_ipc_ce_sm120.cuh",
+        "source_sha256": "18f855e4be718126a4ce2a9072aa1021f91e1ac7ab693c2a855876949e4094d2",
+        "vendored_sha256": "18f855e4be718126a4ce2a9072aa1021f91e1ac7ab693c2a855876949e4094d2",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/include/flashinfer/comm/pcie_ipc_all_reduce.cuh": {
+        "source": "include/flashinfer/comm/pcie_ipc_all_reduce.cuh",
+        "source_sha256": "e10fd94b87b874557753b74716a014332cd23bba376177a8c406c4a179be9c81",
+        "vendored_sha256": "e10fd94b87b874557753b74716a014332cd23bba376177a8c406c4a179be9c81",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/include/flashinfer/comm/pcie_ipc_all_gather.cuh": {
+        "source": "include/flashinfer/comm/pcie_ipc_all_gather.cuh",
+        "source_sha256": "8fc03a843f630d91851fe3e9ca5f55fc320117a163c47dc40d86d5d4106a1440",
+        "vendored_sha256": "8fc03a843f630d91851fe3e9ca5f55fc320117a163c47dc40d86d5d4106a1440",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/include/flashinfer/comm/pcie_ipc_reduce_scatter.cuh": {
+        "source": "include/flashinfer/comm/pcie_ipc_reduce_scatter.cuh",
+        "source_sha256": "9dabfa4988192a0726a129972aca839ffbe778ad3a6cf0c211238f7623d38976",
+        "vendored_sha256": "9dabfa4988192a0726a129972aca839ffbe778ad3a6cf0c211238f7623d38976",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/include/flashinfer/comm/pcie_ipc_common.cuh": {
+        "source": "include/flashinfer/comm/pcie_ipc_common.cuh",
+        "source_sha256": "87a2506340c59a5d3874a94a399296ec26b06073a042bc66834331399a372a5d",
+        "vendored_sha256": "87a2506340c59a5d3874a94a399296ec26b06073a042bc66834331399a372a5d",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/include/flashinfer/comm/pcie_ipc_ce_ring.cuh": {
+        "source": "include/flashinfer/comm/pcie_ipc_ce_ring.cuh",
+        "source_sha256": "eb707bdea84ddeab0adaa2c5150c048a06fccc6df4dc49d612698d38c49dde55",
+        "vendored_sha256": "eb707bdea84ddeab0adaa2c5150c048a06fccc6df4dc49d612698d38c49dde55",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/include/flashinfer/layout.cuh": {
+        "source": "include/flashinfer/layout.cuh",
+        "source_sha256": "f000e64b9c718b0659fff1acf3c3fa0c2cdf5c75862cede645b16014bfa7aa2b",
+        "vendored_sha256": "f000e64b9c718b0659fff1acf3c3fa0c2cdf5c75862cede645b16014bfa7aa2b",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/csrc/tvm_ffi_utils.h": {
+        "source": "csrc/tvm_ffi_utils.h",
+        "source_sha256": "d07494e507f49ae64d11f6fed7c342dc2c90e46fe90dd016ff586ca830172826",
+        "vendored_sha256": "d07494e507f49ae64d11f6fed7c342dc2c90e46fe90dd016ff586ca830172826",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/csrc/pcie_ipc_reduce_scatter.cu": {
+        "source": "csrc/pcie_ipc_reduce_scatter.cu",
+        "source_sha256": "3ef9c2f02f778de47116d6eaec9fd8b90ef63155fe45c7e732e197bbecf31cf7",
+        "vendored_sha256": "3ef9c2f02f778de47116d6eaec9fd8b90ef63155fe45c7e732e197bbecf31cf7",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/csrc/pcie_ipc_all_gather.cu": {
+        "source": "csrc/pcie_ipc_all_gather.cu",
+        "source_sha256": "f217fbd8ae4d778e25f0e8b28dab0ecbb135234c681267a12da96f362f679954",
+        "vendored_sha256": "f217fbd8ae4d778e25f0e8b28dab0ecbb135234c681267a12da96f362f679954",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/csrc/pcie_ipc_all_reduce.cu": {
+        "source": "csrc/pcie_ipc_all_reduce.cu",
+        "source_sha256": "bc30ea39fc2d1a67db08937f914656169cfa5b52081b575978871b95eebfeb21",
+        "vendored_sha256": "bc30ea39fc2d1a67db08937f914656169cfa5b52081b575978871b95eebfeb21",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/utils.py": {
+        "source": "flashinfer/utils.py",
+        "source_sha256": "affbdae50486b23f5103efb1fe266a46953c3685b0b19c9b77a3bc47edf171c3",
+        "vendored_sha256": "6c730e1678e802c74b3d534230f94688d488aafcb32ea14e91f765d7a689dfa7",
+        "adaptation": "selected helpers; globaltimer uses shared JIT adapter"
+      },
+      "LICENSE": {
+        "source": "LICENSE",
+        "source_sha256": "cb67c224f503e0a063908950b12f89a7280c6e527dcffac972aa114e4bf3c5de",
+        "vendored_sha256": "cb67c224f503e0a063908950b12f89a7280c6e527dcffac972aa114e4bf3c5de",
+        "adaptation": "verbatim"
+      },
+      "NOTICE": {
+        "source": "NOTICE",
+        "source_sha256": "b97a6d2b6336ad98ba738c0ee3129f312240d16759b4825b2b947e0787657131",
+        "vendored_sha256": "b97a6d2b6336ad98ba738c0ee3129f312240d16759b4825b2b947e0787657131",
+        "adaptation": "verbatim"
+      },
+      "pcie_comm/jit/cute_dsl_core.py": {
+        "source": "flashinfer/jit/cute_dsl_core.py",
+        "source_sha256": "a4f10622d8fdf9d830ef33dfff1b2c9aa6629866ede2d02c3ea4f19067fd6ca9",
+        "vendored_sha256": "762adb6bbfe1066e51f023cfcaa9c81451fd39fe1c9e11991651b705d8b9130a",
+        "adaptation": "extract compiler-stack fingerprint helper"
+      },
+      "tests/helpers.py": {
+        "source": "tests/comm/test_pcie_ipc_all_reduce.py",
+        "source_sha256": "410070cf3ed6fb50b51ab8bab3f8176e508d2bab270775035541d80ce4f2f0e0",
+        "vendored_sha256": "16836d03b23e7f3d3855674ad8dc5389b9500d06ac6eb4649673563438bcbac3",
+        "adaptation": "extract CPU multiprocess helpers"
+      },
+      "tests/upstream/test_pcie_ipc_policy.py": {
+        "source": "tests/comm/test_pcie_ipc_policy.py",
+        "source_sha256": "43040908d64839a87b7fe78aecad7dc9b406e494e1c96c1c7decc6ed85d95ed8",
+        "vendored_sha256": "b3dc47803800841c245613b7385463308d02767d8783e1de035abff62b73df46",
+        "adaptation": "namespace; select library tests; extracted helper import"
+      },
+      "tests/upstream/test_pcie_ipc_tuning.py": {
+        "source": "tests/comm/test_pcie_ipc_tuning.py",
+        "source_sha256": "a197a5b9b3c4227780e3f501d2f5d07f60a5c569588168a4e22628afa5714d00",
+        "vendored_sha256": "3a2f74d7129ba55b06a97ecdd28d98551851871c081e20f6566cbe52cfb9e559",
+        "adaptation": "namespace; select library tests; extracted helper import"
+      },
+      "tests/upstream/test_pcie_ipc_admission.py": {
+        "source": "tests/comm/test_pcie_ipc_admission.py",
+        "source_sha256": "79f98bc46f615f5e0a4a59bf6e51d970b803c01f197ac8d089dd72576f092530",
+        "vendored_sha256": "47699dbabf23215181ee7389f52e13b55f77f40f9a62d89325bf42fbdeed3955",
+        "adaptation": "namespace; select library tests; extracted helper import"
+      }
+    }
+  },
+  "deepep": {
+    "repository": "https://github.com/deepseek-ai/DeepEP",
+    "inspected_commit": "93eb6eb238127e96c6d7a4a625a6dad158348509"
+  },
+  "deepjit": {
+    "repository": "https://github.com/deepseek-ai/DeepJIT",
+    "commit": "cba802df081985141eeee36803685775c183a047",
+    "integration": "Unmodified DiskCache and hash headers; shared-library builder/loader adapter"
+  }
+}
